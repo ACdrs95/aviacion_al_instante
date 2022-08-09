@@ -65,7 +65,7 @@ small {
 }
 
 header {
-    background-color:lightblue
+    background-image: linear-gradient(to left, lightblue 0%, transparent 85%);
 }
 
 header .nav ul {
@@ -77,6 +77,7 @@ header .nav ul li a {
     font-size: 20px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
+    transition: all 0.3s ease-in-out;
 }
 
 header .nav ul li a:hover {
