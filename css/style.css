@@ -169,6 +169,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    border: 5px;
 }
 
 .secciones {
@@ -182,7 +183,41 @@ footer {
 }
 
 .seccion2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse
+}
 
+.seccion3 {
+    display: flex;
+    flex: 1;
+}
+
+.seccion4 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse
+}
+
+.seccion5 {
+    display: flex;
+    flex: 1;
+}
+
+.seccion6 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse
+}
+
+.img1 {
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.img2 {
+    flex-direction: column;
+    max-width: 100%;
 }
 
 /*medias*/
