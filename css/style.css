@@ -154,6 +154,7 @@ footer {
 .img {
     display: flex;
 }
+
 /*medias*/
 
 @media (max-width: 600px) {
