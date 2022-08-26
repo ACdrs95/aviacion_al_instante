@@ -1,3 +1,7 @@
+/*variables*/ 
+
+$tororosso: rgba(106, 29, 29, 0.65);
+
 html {
 	margin: 0;
 	padding: 0;
@@ -17,20 +21,20 @@ p {
 	font-family: 'Roboto Slab', serif;
 }
 h1 {
-	color: rgba(106, 29, 29, 0.65);
+	color: $tororosso;
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 h2 {
-	color: rgba(106, 29, 29, 0.65);
+	color: $tororosso;
 	font-family: 'Roboto Slab', serif;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 h3 {
-	color: rgba(106, 29, 29, 0.65);
+	color: $tororosso;
 	font-family: 'Roboto Slab', serif;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -152,4 +156,27 @@ footer {
 			max-width: 70%;
 		}
 	}
+}
+
+/*combat*/
+
+.combate1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    .img1 {
+        width: 80%;
+        padding: auto;
+        border: auto;
+        }
+}
+.combate2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    .img2 {
+        width: 80%;
+        padding: auto;
+        border: auto;
+        }
 }

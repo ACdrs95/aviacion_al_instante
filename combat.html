@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+    <meta name="keywords">
     <title>aviación</title>
 
     <!-- CSS only -->
@@ -16,12 +16,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 
 <body>
     <header >
-
 		<nav class="navbar navbar-expand-lg menu">
 			<div class="container-fluid">
                 <a>
@@ -54,9 +53,8 @@
 				</div>
 			</div>
 		</nav>
-
 	</header>
-    
+
     <main>
         <h1>Aviación de combate o militar</h1>
         <section>
@@ -84,99 +82,125 @@
                 de la Primera Guerra Mundial fue motivo de risas y mofas por parte de muchos comandantes militares, durante 
                 los tiempos que precedieron a la guerra.
             </p>
-        </section>
-        <section>
-            <h2>Tipos de aeronaves militares</h2>
-            <h3>Aviones de ataque</h3>
-            <p>
-                Los aviones de ataque, tal como su nombre lo dice, son aeronaves específicamente diseñadas para destruir 
-                objetivos enemigos en la superficie, tanto terrestre como marítima. Sin embargo, conviene señalar que esto 
-                no priva a los aviones de ataque de poder portar y disparar misiles aire-aire como precaución defensiva en 
-                caso de ser interceptados por el enemigo.
-            </p>
-            <p>
-                Lo cierto es que la categoría de aviones de ataque contiene aeronaves muy diversas, tanto en su forma y categoría 
-                como en sus misiones y objetivos. Podemos encontrar aviones con motor de pistón, tales como el Douglas 
-                A-1 Skyraider y el IA-58 Pucará, ambos diseñados para realizar misiones de Apoyo aéreo cercano. Por otro 
-                lado, existen aviones como el F-15E Strike Eagle, que si bien se especializa en misiones de ataque conserva 
-                la capacidad de ataque combate aire-aire del modelo F-15C, por lo qué técnicamente es un 
-                cazabombardero, aunque generalmente es considerado un avión de ataque. 
-                Finalmente tenemos los aviones de ataque puro, cómo el A-10 Thunderbolt y el Su-25 Frogfoot.
-            </p>
+        </section>         
+        
+        <h2>Tipos de aeronaves militares</h2>
+
+        <section class="combate1">
             <div>
-                <img width="500" src="src/thunder.jpg" alt="">
+                <h3>Aviones de ataque</h3>
+            </div>
+            <div>
+                <p>
+                    Los aviones de ataque, tal como su nombre lo dice, son aeronaves específicamente diseñadas para destruir 
+                    objetivos enemigos en la superficie, tanto terrestre como marítima. Sin embargo, conviene señalar que esto 
+                    no priva a los aviones de ataque de poder portar y disparar misiles aire-aire como precaución defensiva en 
+                    caso de ser interceptados por el enemigo.
+                </p>
+                <p>
+                    Lo cierto es que la categoría de aviones de ataque contiene aeronaves muy diversas, tanto en su forma y categoría 
+                    como en sus misiones y objetivos. Podemos encontrar aviones con motor de pistón, tales como el Douglas 
+                    A-1 Skyraider y el IA-58 Pucará, ambos diseñados para realizar misiones de Apoyo aéreo cercano. Por otro 
+                    lado, existen aviones como el F-15E Strike Eagle, que si bien se especializa en misiones de ataque conserva 
+                    la capacidad de ataque combate aire-aire del modelo F-15C, por lo qué técnicamente es un 
+                    cazabombardero, aunque generalmente es considerado un avión de ataque. 
+                    Finalmente tenemos los aviones de ataque puro, cómo el A-10 Thunderbolt y el Su-25 Frogfoot.
+                </p>
+            </div>
+            <div>
+                <img class="img1" src="src/thunder.jpg" alt="">
             </div>
         </section>
-        <section>
-            <h3>Bombarderos</h3>
-            <p>
-                Los bombarderos son aviones diseñados para transportar una carga bélica determinada y lanzarla sobre un 
-                objetivo, ya sea en tierra o en el mar, teniendo muchas veces para ello que adentrarse en espacio aéreo 
-                dominado por el enemigo. Los bombarderos están dotados de bodegas y/o puntos de anclaje externos donde 
-                transportan la carga que puede ser bombas o también misiles crucero, y deben contar con medios para apuntar 
-                el lanzamiento, estos pueden ser ópticos o electrónicos. Ejemplos de bombarderos actuales son el 
-                B-1 Lancer, el B-2, el B-52 o el Tu-160
-            </p>
+        <section class="combate2">
             <div>
-                <img width="500" src="src/bombardero.jpg" alt="">
+                <h3>Bombarderos</h3>
+            </div>
+            <div>
+                <p>
+                    Los bombarderos son aviones diseñados para transportar una carga bélica determinada y lanzarla sobre un 
+                    objetivo, ya sea en tierra o en el mar, teniendo muchas veces para ello que adentrarse en espacio aéreo 
+                    dominado por el enemigo. Los bombarderos están dotados de bodegas y/o puntos de anclaje externos donde 
+                    transportan la carga que puede ser bombas o también misiles crucero, y deben contar con medios para apuntar 
+                    el lanzamiento, estos pueden ser ópticos o electrónicos. Ejemplos de bombarderos actuales son el 
+                    B-1 Lancer, el B-2, el B-52 o el Tu-160
+                </p>
+            </div>
+            <div>
+                <img class="img2" src="src/bombardero.jpg" alt="">
             </div>
         </section>
-        <section>
-            <h3>Aviones de caza</h3>
-            <p>
-                Se denominan aviones de caza o interceptores a aquellas aeronaves concebidas, diseñadas, equipadas, armadas 
-                y utilizadas para la búsqueda y destrucción de las aeronaves del enemigo, así como para la defensa del espacio 
-                aéreo propio. Los aviones de caza tienen la función de desplegarse para defender puntos estratégicos en caso 
-                de que el enemigo envíe sus aviones para atacarlos. Por tanto, es esencial que entre sus características 
-                figure poder emplear pistas de reducidas dimensiones; poseer potencia suficiente para ganar altura en poco 
-                tiempo, poseer agilidad y maniobrabilidad para el combate cercano; contar con medios 
-                electrónicos (como el radar) para detectar y poder atacar al adversario; y, por último, tener la capacidad de 
-                portar y disparar munición para el combate aire-aire.
-            </p>
+        <section class="combate1">
             <div>
-                <img width="500" src="src/f22.jpg" alt="">
+                <h3>Aviones de caza</h3>
+            </div>
+            <div>
+                <p>
+                    Se denominan aviones de caza o interceptores a aquellas aeronaves concebidas, diseñadas, equipadas, armadas 
+                    y utilizadas para la búsqueda y destrucción de las aeronaves del enemigo, así como para la defensa del espacio 
+                    aéreo propio. Los aviones de caza tienen la función de desplegarse para defender puntos estratégicos en caso 
+                    de que el enemigo envíe sus aviones para atacarlos. Por tanto, es esencial que entre sus características 
+                    figure poder emplear pistas de reducidas dimensiones; poseer potencia suficiente para ganar altura en poco 
+                    tiempo, poseer agilidad y maniobrabilidad para el combate cercano; contar con medios 
+                    electrónicos (como el radar) para detectar y poder atacar al adversario; y, por último, tener la capacidad de 
+                    portar y disparar munición para el combate aire-aire.
+                </p>
+            </div>
+            <div>
+                <img class="img1" src="src/f22.jpg" alt="">
             </div>
         </section>
-        <section>
-            <h3>Aviones de combate polivalentes</h3>
-            <p>
-                El cazabombardero es un avión caza que además de poder asumir la función de defensa aérea, sirve como plataforma 
-                de ataque al suelo. En general, se los denomina simplemente cazas, y descienden de los cazas puros o 
-                caza-interceptores, ya que muchas veces son versiones con capacidad aire-suelo de los mismos. De hecho, por 
-                razones presupuestarias, pocas naciones pueden darse el lujo de poseer un avión distinto para cada 
-                función, optando por aeronaves multimisión.
-            </p>
+        <section class="combate2">
             <div>
-                <img width="500" src="src/Eurofighter-Typhoon.jpg" alt="">
+                <h3>Aviones de combate polivalentes</h3>
+            </div>
+            <div>
+                <p>
+                    El cazabombardero es un avión caza que además de poder asumir la función de defensa aérea, sirve como plataforma 
+                    de ataque al suelo. En general, se los denomina simplemente cazas, y descienden de los cazas puros o 
+                    caza-interceptores, ya que muchas veces son versiones con capacidad aire-suelo de los mismos. De hecho, por 
+                    razones presupuestarias, pocas naciones pueden darse el lujo de poseer un avión distinto para cada 
+                    función, optando por aeronaves multimisión.
+                </p>
+            </div>
+            <div>
+                <img class="img2" src="src/Eurofighter-Typhoon.jpg" alt="">
             </div>
         </section>
-        <section>
-            <h3>Aeronaves de transporte</h3>
-            <p>
-                Los aviones de transporte militar (logísticos) son usados principalmente para transportar tropas y pertrechos 
-                militares. La carga puede ser instalada en pallets, que son fácilmente cargados, asegurados para el vuelo 
-                y descargados rápidamente en el lugar de entrega. También la carga puede ser descargada desde un avión en 
-                vuelo mediante el uso de paracaídas, eliminando la necesidad de aterrizar. También son incluidos en esta 
-                categoría los aviones cisterna; estos aviones pueden reabastecer de combustible a otros aviones mientras están 
-                en vuelo. Un ejemplo de un avión de transporte es el C-17 Globemaster III. Un ejemplo de la Segunda Guerra 
-                Mundial es el C-47. Un ejemplo de un avión cisterna es el KC-135 Stratotanker. Los helicópteros y los 
-                planeadores pueden transportar tropas y abastecimientos a áreas donde otros aviones serían incapaces de hacerlos 
-                llegar.
-            </p>
+        <section class="combate1">
             <div>
-                <img width="500" src="src/c17.jpg" alt="">
+                <h3>Aeronaves de transporte</h3>
+            </div>
+            <div>
+                <p>
+                    Los aviones de transporte militar (logísticos) son usados principalmente para transportar tropas y pertrechos 
+                    militares. La carga puede ser instalada en pallets, que son fácilmente cargados, asegurados para el vuelo 
+                    y descargados rápidamente en el lugar de entrega. También la carga puede ser descargada desde un avión en 
+                    vuelo mediante el uso de paracaídas, eliminando la necesidad de aterrizar. También son incluidos en esta 
+                    categoría los aviones cisterna; estos aviones pueden reabastecer de combustible a otros aviones mientras están 
+                    en vuelo. Un ejemplo de un avión de transporte es el C-17 Globemaster III. Un ejemplo de la Segunda Guerra 
+                    Mundial es el C-47. Un ejemplo de un avión cisterna es el KC-135 Stratotanker. Los helicópteros y los 
+                    planeadores pueden transportar tropas y abastecimientos a áreas donde otros aviones serían incapaces de hacerlos 
+                    llegar.
+                </p>
+            </div>
+            <div>
+                <img class="img1" src="src/c17.jpg" alt="">
             </div>
         </section>
-        <section>
-            <h3>Aeronaves de reconocimiento</h3>
-            <p>
-                Los aviones de reconocimiento son usados principalmente para obtener inteligencia. Ellos están equipados con 
-                cámaras y otros sensores. Estos aviones pueden estar diseñados especialmente o pueden ser modificaciones de 
-                un avión de bombardero o de caza. Este rol está siendo llenado cada vez más por satélites y vehículos aéreos 
-                no tripulados (en inglés: Unmanned Aerial Vehicles, UAV).
-            </p>
+        <section class="combate2">
             <div>
-                <img width="500" src="src/uav.jpg" alt="">
+                <h3>Aeronaves de reconocimiento</h3>
+            </div>
+            <div>
+                <p>
+                    Los aviones de reconocimiento son usados principalmente para obtener inteligencia. Ellos están equipados con 
+                    cámaras y otros sensores. Estos aviones pueden estar diseñados especialmente o pueden ser modificaciones de 
+                    un avión de bombardero o de caza. Este rol está siendo llenado cada vez más por satélites y vehículos aéreos 
+                    no tripulados (en inglés: Unmanned Aerial Vehicles, UAV).
+                </p>
+            </div>
+            <div>
+                <img class="img2" src="src/uav.jpg" alt="">
             </div>
         </section>
     </main>
