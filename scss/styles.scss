@@ -61,7 +61,6 @@ footer {
 	display: block;
 	bottom: 0;
 }
-
 .campos {
 	max-width: 500px;
 	width: 100%;
@@ -156,27 +155,43 @@ footer {
 			max-width: 70%;
 		}
 	}
+	.combate1 {
+		display: flex;
+		flex-wrap: wrap;
+			.img1 {
+				max-width: 100%;
+			}
+	}
+	.combate2 {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 /*combat*/
+.combat-main {
+	margin: 20px;
+	padding: 20px;
+}
 
 .combate1 {
     padding: 10px;
     display: flex;
     flex-direction: row;
+	justify-content: center;
     .img1 {
-        width: 80%;
-        padding: auto;
-        border: auto;
+		max-width: 100%;
         }
 }
 .combate2 {
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
+	justify-content: center;
     .img2 {
-        width: 80%;
-        padding: auto;
-        border: auto;
+		max-width: 100%;
         }
+	p {
+		justify-content: center;
+	}
 }
