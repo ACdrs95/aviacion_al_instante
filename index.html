@@ -75,21 +75,26 @@
 	</header>
     
     <main>
-        <div class="slider">
-            <ul>
-                <li>
-                    <img src="src/747.jpg" alt="aviones" title="aviones">
-                </li>
-                <li>
-                    <img src="src/usaf.jpg" alt="aviones" title="aviones">
-                </li>
-                <li>
-                    <img src="src/f22raptor.jpg" alt="aviones" title="aviones">
-                </li>
-                <li>
-                    <h1>Una breve visita al conocimiento aeronáutico</h1>
-                </li>
-            </ul>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/747.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="src/usaf.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="src/f22raptor.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <div>
             <h1>Aviación al instante.</h1>
